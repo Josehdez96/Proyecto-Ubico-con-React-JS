@@ -9,3 +9,17 @@ Para aportar al proyecto seguir esto pasos:
 Para hacerlo:
 - <code> npm install </code>
 - Y para correr el servidor de desarrollo <code> npm run start </code>
+
+
+
+
+English mode:
+
+This is a initially frontend project calls Ubico, created with ReactJS
+
+It's a collaboration between Jose Daniel Hernandez and Jose Luis Alvarez
+
+If you want to make pull requests, follow these steps:
+1) Clone the repository with Git
+2) Install envirorment with <code> npm install </code> after that, to see the project locally run <code> npm run start </code>
+
