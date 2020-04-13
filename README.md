@@ -1,4 +1,5 @@
-# Proyecto-Ubico-con-React-JS
+# Proyecto frontend Ubico con ReactJS
+
 Proyecto practica Jose Daniel Hernandez en conjunto con Jose Luis Alvarez
 
 Para aportar al proyecto seguir esto pasos:
