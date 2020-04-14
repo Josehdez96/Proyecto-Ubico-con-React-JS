@@ -8,7 +8,9 @@ Para aportar al proyecto seguir esto pasos:
 2) Instalar entorno
 Para hacerlo:
 - <code> npm install </code>
+- <code> npm install bootstrap </code>
 - Y para correr el servidor de desarrollo <code> npm run start </code>
+
 
 
 
@@ -21,5 +23,6 @@ It's a collaboration between Jose Daniel Hernandez and Jose Luis Alvarez
 
 If you want to make pull requests, follow these steps:
 1) Clone the repository with Git
-2) Install envirorment with <code> npm install </code> after that, to see the project locally run <code> npm run start </code>
+2) Use <code> npm install bootstrap </code>
+3) Install envirorment with <code> npm install </code> after that, to see the project locally run <code> npm run start </code>
 
