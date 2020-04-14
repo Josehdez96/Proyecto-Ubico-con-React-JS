@@ -11,7 +11,7 @@ Para hacerlo:
 - <code> npm install bootstrap </code>
 - Y para correr el servidor de desarrollo <code> npm run start </code>
 
-El diseño inicial esta dentro de MVPstyles/webPageDesignExample
+NOTA: El diseño inicial esta dentro de MVPstyles/webPageDesignExample
 
 
 
@@ -28,5 +28,5 @@ If you want to make pull requests, follow these steps:
 2) Use <code> npm install bootstrap </code>
 3) Install envirorment with <code> npm install </code> after that, to see the project locally run <code> npm run start </code>
 
-The initial design is inside of MVPstyles/webPageDesignExample
+NOTE: The initial design is inside of MVPstyles/webPageDesignExample
 
