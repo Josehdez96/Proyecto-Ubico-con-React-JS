@@ -1,6 +1,6 @@
 import React from "react";
 
-class searchBar extends React.Component {
+class SearchBar extends React.Component {
     render() {
         return (
             <h1>Barra de busqueda</h1>
@@ -8,4 +8,4 @@ class searchBar extends React.Component {
     }
 }
 
-export default searchBar;
+export default SearchBar;
