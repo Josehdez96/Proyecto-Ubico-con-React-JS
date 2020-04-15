@@ -1,0 +1,26 @@
+#hero {
+  display: flex;
+  justify-content: center;  
+}
+
+#hero img {
+  max-height: 40vh; 
+  object-fit: cover;
+  height: 14vh;
+  margin-bottom: 10vh;
+}
+
+#main-row {
+  height: 50vh;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 425px) {
+  #hero img {
+    max-height: 40vh;
+    object-fit: cover;
+    height: 14vh;
+    margin-bottom: 10vh;
+    padding-left: 5vw;
+  }
+}

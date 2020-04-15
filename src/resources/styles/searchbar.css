@@ -1,0 +1,35 @@
+#searchbar {
+  display: flex;
+  justify-content: center;  
+  margin-top: 0vh
+}
+
+#searchbar-row {
+  width: 70%;
+}
+
+#searchbar-placeholder {
+  text-align: center;
+}
+
+#button-searchbar {
+  margin-top: 5vh;
+  background-color: #93D8CE !important;
+  border-color: #93D8CE;
+}
+
+#copyright {
+  margin-top: 7vh;
+}
+
+@media screen and (max-width: 425px) {
+  #searchbar-row {
+    padding-left: 4vw;
+    width: 100vw;
+  }
+}
+
+
+
+
+
