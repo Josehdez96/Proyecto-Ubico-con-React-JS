@@ -1,13 +1,14 @@
 import React from 'react';
-import Header from "../components/Header.jsx";
 import Hero from "../components/Hero.jsx";
+import Searchbar from "../components/Searchbar.jsx"
 
 
 
 const App = () => (
   <div className="App"> 
-    <Header />
     <Hero />
+    <Searchbar />
+    <h1>Footer</h1>
   </div>
 )
 
