@@ -1,6 +1,6 @@
 import React from "react";
 import ubicoLogo from "../resources/companyImages/UbicoLogoLight.png"
-import "../resources/styles/hero.css"
+import "../resources/styles/Hero.css"
 
 const Hero = () => (
   <div className="container" id="hero">
