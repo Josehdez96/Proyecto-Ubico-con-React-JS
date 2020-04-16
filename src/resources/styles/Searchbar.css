@@ -20,11 +20,11 @@
 
 #copyright {
   margin-top: 7vh;
+  margin-bottom: 12vh;
 }
 
 @media screen and (max-width: 425px) {
   #searchbar-row {
-    padding-left: 4vw;
     width: 100vw;
   }
 }
