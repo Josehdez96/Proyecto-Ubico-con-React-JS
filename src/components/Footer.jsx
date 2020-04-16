@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="container" >
       <div className="row">
         <div className="col-12" id="by">
-          <span>Create by Jose Daniel Hernandez</span>
+          <span>Created by Jose Daniel Hernandez</span>
         </div>
       </div>
     </div>
