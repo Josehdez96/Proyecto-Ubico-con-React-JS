@@ -1,0 +1,20 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+  height: 100%;
+  margin: 0px;
+}
+
+.Results {
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 109vw;
+  }
+}
