@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 50vh;
+  margin-right: 7vw;
+  margin-left: 3vw;
+  margin-top: 5vh;
+}
+
+#AmazonImage {
+  width: 25vw;
+}
+
+#KtronixImage {
+  width: 25vw;
+  padding-top: 1vh
+}
+
+#AlkostoImage {
+  width: 25vw;
+}
+
+#boton   {
+  margin-top: 5vh;
+  color: #5A5A5C;
+  background-color: #FFFFFF !important;
+  border-color: #949496;
+}

@@ -14,7 +14,11 @@ const HeroResults = () => (
     </div>
     <div className="container" id="buttonHero">
       <div className="row" id="">
-        <Button className="button-hero-results" buttonTitle="¡Volver atras!" />
+        <Button 
+        className="button-hero-results" 
+        buttonTitle="¡Volver atras!" 
+        whereItGo="/"
+        />
       </div>
     </div>
   </main>

@@ -18,7 +18,7 @@
 #buttonHero {
   display: flex;
   justify-content: center;
-  margin-top: -10vh;
+  margin-top: -6vh;
 }
 
 @media screen and (max-width: 425px) {
