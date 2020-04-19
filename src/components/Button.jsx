@@ -7,7 +7,7 @@ class Button extends React.Component {
     render() {
     return (
       <div className="col-12">
-        <Link to="/results" onClick={this.props.onClick} className="btn btn-primary" id="button-searchbar">¡Buscar tu producto!</Link>
+        <Link to="/results" onClick={this.props.onClick} className="btn btn-primary" id="button-searchbar">{this.props.buttonTitle}</Link>
       </div>
     )
   }

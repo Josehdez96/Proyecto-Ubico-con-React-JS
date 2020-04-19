@@ -34,7 +34,7 @@ class SearchBar extends React.Component {
                       id="searchbar-placeholder"
                       />
                   </div>
-                  <Button searchValue={this.state.searchValue} onClick={this.handleClick} />
+                  <Button searchValue={this.state.searchValue} onClick={this.handleClick} buttonTitle="¡Buscar tu producto!" />
                   <div className="col-12">
                     <p className="text-muted" id="copyright">© 2020 Ubico Medellin, Colombia</p>
                   </div>
