@@ -38,7 +38,7 @@ class SearchBar extends React.Component {
                   searchValue={this.state.searchValue}
                   onClick={this.handleClick}
                   buttonTitle="¡Buscar tu producto!"
-                  whereItGo="/results"
+                  routeToRedirect="/results"
                   />
                   <div className="col-12">
                     <p className="text-muted" id="copyright">© 2020 Ubico Medellin, Colombia</p>

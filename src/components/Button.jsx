@@ -8,7 +8,7 @@ class Button extends React.Component {
     return (
       <div className="col-12">
         <Link 
-        to={this.props.whereItGo}
+        to={this.props.routeToRedirect}
         searchValue={this.props.searchValue}
         onClick={this.props.onClick} 
         className="btn btn-primary" 

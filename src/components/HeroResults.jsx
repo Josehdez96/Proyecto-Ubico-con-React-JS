@@ -17,7 +17,7 @@ const HeroResults = () => (
         <Button 
         className="button-hero-results" 
         buttonTitle="¡Volver atras!" 
-        whereItGo="/"
+        routeToRedirect="/"
         />
       </div>
     </div>
