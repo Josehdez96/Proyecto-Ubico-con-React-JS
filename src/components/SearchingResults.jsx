@@ -8,21 +8,19 @@ import Alkosto from "../resources/providersLogos/Alkosto_logo.png"
 import SearchResultItem from "./SearchResultItem";
 
 
-const SearchingResults = ({finalSearchValue}) => {
-  console.log(finalSearchValue)
+const SearchingResults = searchReducer => {
+  //console.log(searchReducer.finalSearchValue.searchValue)
   return (
   <ul className="list">
-    <SearchResultItem provider={Amazon} design="AmazonImage" URL="https://www.amazon.es/" />
-    <SearchResultItem provider={Ktronix} design="KtronixImage" URL={`https://www.ktronix.com/salesperson/result/?q=${finalSearchValue}`} />
-    <SearchResultItem provider={Alkosto} design="AlkostoImage" URL="https://www.alkosto.com/" />
+    <SearchResultItem provider={Amazon} design="AmazonImage" URL={`https://www.amazon.com/s?k=${searchReducer.finalSearchValue.searchValue}&__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss`} />
+    <SearchResultItem provider={Ktronix} design="KtronixImage" URL={`https://www.ktronix.com/salesperson/result/?q=${searchReducer.finalSearchValue.searchValue}`} />
+    <SearchResultItem provider={Alkosto} design="AlkostoImage" URL={`https://www.alkosto.com/salesperson/result/?q=${searchReducer.finalSearchValue.searchValue}`} />
   </ul> 
   )
 }
 
- const mapStateToProps = searchReducer => {
-   return {
-      searchReducer.finalSearchValue
-   }
+ const mapStateToProps = reducers => {
+   return reducers.searchReducer
  }
 
 export default connect(mapStateToProps, null)(SearchingResults);
