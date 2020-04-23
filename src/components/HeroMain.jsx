@@ -8,6 +8,7 @@ const HeroMain = () => (
       <div className="row" id="main-row">
         <div className="col">
           <img src={ubicoLogo} alt="Logo Ubico"/>
+          <p className="text-muted" id="hero-message">¡Tu buscador de tecnología!</p>
         </div>
       </div>
     </div>

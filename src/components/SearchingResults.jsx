@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux"
-import * as searchReducer from "../reducers/searchReducer"
 
 import Amazon from "../resources/providersLogos/Amazon_logo.png"
 import Ktronix from "../resources/providersLogos/Ktronix_logo.png"
@@ -9,7 +8,6 @@ import SearchResultItem from "./SearchResultItem";
 
 
 const SearchingResults = searchReducer => {
-  //console.log(searchReducer.finalSearchValue.searchValue)
   return (
   <ul className="list">
     <SearchResultItem provider={Amazon} design="AmazonImage" URL={`https://www.amazon.com/s?k=${searchReducer.finalSearchValue.searchValue}&__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss`} />
