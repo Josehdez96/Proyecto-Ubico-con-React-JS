@@ -1,0 +1,3 @@
+Cuando el usuario/cliente de click en buscar, deben aparecer en una nueva zona 
+de pagina (sin refrescarla) con las tiendas. Usando componentDidMount y demás. Como 
+se ve en searchinAProduct.PNG

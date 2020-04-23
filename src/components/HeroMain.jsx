@@ -1,8 +1,8 @@
 import React from "react";
 import ubicoLogo from "../resources/companyImages/UbicoLogoLight.png"
-import "../resources/styles/Hero.css"
+import "../resources/styles/HeroMain.css"
 
-const Hero = () => (
+const HeroMain = () => (
   <main>
     <div className="container" id="hero">
       <div className="row" id="main-row">
@@ -14,4 +14,4 @@ const Hero = () => (
   </main>
 );
 
-export default Hero;
+export default HeroMain;
