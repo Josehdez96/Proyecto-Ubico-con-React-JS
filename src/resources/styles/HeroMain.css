@@ -7,12 +7,17 @@
   max-height: 40vh; 
   object-fit: cover;
   height: 14vh;
-  margin-bottom: 10vh;
+  margin-bottom: 6vh;
 }
 
 #main-row {
   height: 50vh;
   align-items: flex-end;
+}
+
+#hero-message {
+  margin-bottom: 6vh;
+  text-align: center;
 }
 
 @media screen and (max-width: 425px) {

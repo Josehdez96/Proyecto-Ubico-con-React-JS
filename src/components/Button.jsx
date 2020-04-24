@@ -7,9 +7,8 @@ class Button extends React.Component {
     render() {
     return (
       <div className="col-12">
-        <Link 
+        <Link
         to={this.props.routeToRedirect}
-        searchValue={this.props.searchValue}
         onClick={this.props.onClick} 
         className="btn btn-primary" 
         id="button-searchbar">

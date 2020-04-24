@@ -1,5 +1,4 @@
 import React from "react";
-
 import HeroResults from "../../components/HeroResults.jsx"
 import SearchingResults from "../../components/SearchingResults.jsx";
 
@@ -15,4 +14,4 @@ class Results extends React.Component {
   }
 }
 
-export default Results;
+export default Results; 
