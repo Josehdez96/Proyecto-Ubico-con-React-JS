@@ -1,14 +1,15 @@
-# Proyecto frontend Ubico con ReactJS
+# Proyecto frontend Ubico (buscador de tecnología) con ReactJS
 
+Spanish version.
 Proyecto practica Jose Daniel Hernandez en conjunto con Jose Luis Alvarez
 
-Para aportar al proyecto seguir esto pasos:
+Para aportar o correr el proyecto seguir esto pasos:
 
 1) Clonar el proyecto de manera local con Git
 2) Instalar entorno
 Para hacerlo:
-- <code> npm install </code>
-- <code> npm install bootstrap </code>
+- <code> npm install create-react-app</code>
+- <code> npm install bootstrap redux react-redux react-router-dom </code>
 - Y para correr el servidor de desarrollo <code> npm run start </code>
 
 NOTA: El diseño inicial esta dentro de MVPstyles/webPageDesignExample
@@ -16,16 +17,16 @@ NOTA: El diseño inicial esta dentro de MVPstyles/webPageDesignExample
 
 
 
-English mode:
+English version:
 
-This is a initially frontend project calls Ubico, created with ReactJS
+This is a initially frontend project calls Ubico; a technology browser created with ReactJS
 
 It's a collaboration between Jose Daniel Hernandez and Jose Luis Alvarez
 
 If you want to make pull requests, follow these steps:
 1) Clone the repository with Git
-2) Use <code> npm install bootstrap </code>
-3) Install envirorment with <code> npm install </code> after that, to see the project locally run <code> npm run start </code>
+2) Install envirorment with <code> npm install bootstrap redux react-redux react-router-dom </code> 
+3) After that, to see the project locally run <code> npm run start </code>
 
-NOTE: The initial design is inside of MVPstyles/webPageDesignExample
+NOTE: The initial design (by Luis Gallego and Nicolas Hernandez) is inside of MVPstyles/webPageDesignExample
 
