@@ -6,7 +6,7 @@ Proyecto practica Jose Daniel Hernandez en conjunto con Jose Luis Alvarez
 Para aportar o correr el proyecto seguir esto pasos:
 
 1) Clonar el proyecto de manera local con Git
-2) Instalar entorno
+2) Instalar entorno con <code>npm install</code> o 
 Para hacerlo:
 - <code> npm install create-react-app</code>
 - <code> npm install bootstrap redux react-redux react-router-dom </code>
